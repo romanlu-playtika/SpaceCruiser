@@ -6,6 +6,7 @@ public class AudioPostProcessing : AssetPostprocessor
 {
     void OnPreprocessAudio()
     {
+        AudioImporter audioImporter = (AudioImporter)assetImporter;
         var settings = new AudioImporterSampleSettings();
         var fileSize = new FileInfo(assetPath).Length / 1024;
         if (fileSize <= 200)
@@ -23,5 +24,6 @@ public class AudioPostProcessing : AssetPostprocessor
             settings.loadType = AudioClipLoadType.Streaming;
             Debug.Log($"file size is {fileSize} kb, loadtype settings: {settings.loadType}");
         }
+        audioImporter.SetOverrideSampleSettings("Windows", settings);
     }
 }

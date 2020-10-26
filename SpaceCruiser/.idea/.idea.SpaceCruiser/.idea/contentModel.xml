@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_SpaceCruiser.840593338.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Models" t="Include">
+          <e p="Planet" t="Include">
+            <e p="Atmosphere.shader" t="Include" />
+            <e p="Planet.shader" t="Include" />
+            <e p="PlanetLow.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Camera" t="Include">
+            <e p="SmoothFollow.cs" t="Include" />
+          </e>
+          <e p="Data" t="Include">
+            <e p="DataSaver.cs" t="Include" />
+            <e p="ScoreManager.cs" t="Include" />
+          </e>
+          <e p="Extententions" t="Include">
+            <e p="CustomEvents" t="Include">
+              <e p="AvoidAsteroidEvent.cs" t="Include" />
+              <e p="ChangeGameTimeEvent.cs" t="Include" />
+              <e p="ChangeScoreEvent.cs" t="Include" />
+              <e p="PlayerBoostEvent.cs" t="Include" />
+              <e p="PlayerDeathEvent.cs" t="Include" />
+              <e p="SpawnAsteroidEvent.cs" t="Include" />
+              <e p="StopTimeEvent.cs" t="Include" />
+            </e>
+            <e p="FollowFromTarget.cs" t="Include" />
+            <e p="GameTimer.cs" t="Include" />
+            <e p="ObjectPooler.cs" t="Include" />
+            <e p="Observer" t="Include">
+              <e p="EventsObserver.cs" t="Include" />
+              <e p="IDeferredAction.cs" t="Include" />
+              <e p="IEvent.cs" t="Include" />
+              <e p="PublishDeferredAction.cs" t="Include" />
+              <e p="RemoveDeferredAction.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Gameplay" t="Include">
+            <e p="CalculateDifficulty.cs" t="Include" />
+            <e p="CalculateGameTime.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="LevelSpawners" t="Include">
+              <e p="AsteroidsSpawner.cs" t="Include" />
+              <e p="RoadSpawner.cs" t="Include" />
+            </e>
+            <e p="Ship" t="Include">
+              <e p="EngineBehaviour.cs" t="Include" />
+              <e p="PlayerHealth.cs" t="Include" />
+              <e p="PlayerMovement.cs" t="Include" />
+            </e>
+            <e p="SpaceObjects" t="Include">
+              <e p="AsteroidBehaviour.cs" t="Include" />
+              <e p="AvoidScoreAdder.cs" t="Include" />
+              <e p="PlanetBehaviour.cs" t="Include" />
+              <e p="SpaceObjectBehaviour.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Music" t="Include">
+            <e p="GameMusic.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="AbstractUIMenuBase.cs" t="Include" />
+            <e p="BeforeStartUIController.cs" t="Include" />
+            <e p="EndGameUIController.cs" t="Include" />
+            <e p="GameplayUIController.cs" t="Include" />
+            <e p="ResetDataButton.cs" t="Include" />
+            <e p="StartGameButton.cs" t="Include" />
+            <e p="UIController.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Shaders" t="Include">
+          <e p="Floor shader.shader" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="SpaceCruiser.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

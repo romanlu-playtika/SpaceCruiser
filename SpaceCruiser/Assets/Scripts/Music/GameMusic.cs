@@ -20,6 +20,6 @@ public class GameMusic : MonoBehaviour
     {
         _gameplaySource.Stop();
         _gameplaySource.clip = !e.IsTimeStopped ? _gameplayMusic : _sessionStopMusic;
-        _gameplaySource.PlayOneShot(_gameplaySource.clip);
+        _gameplaySource.Play();
     }
 }

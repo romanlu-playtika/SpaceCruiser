@@ -64,6 +64,8 @@
           </e>
           <e p="Music" t="Include">
             <e p="GameMusic.cs" t="Include" />
+            <e p="GameSounds.cs" t="Include" />
+            <e p="SoundsController.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="AbstractUIMenuBase.cs" t="Include" />

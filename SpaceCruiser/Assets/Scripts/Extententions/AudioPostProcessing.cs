@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using UnityEditor;
 using UnityEngine;
 
@@ -8,7 +6,6 @@ public class AudioPostProcessing : AssetPostprocessor
 {
     void OnPreprocessAudio()
     {
-        AudioImporter audioImporter = (AudioImporter)assetImporter;
         var settings = new AudioImporterSampleSettings();
         var fileSize = new FileInfo(assetPath).Length / 1024;
         if (fileSize <= 200)

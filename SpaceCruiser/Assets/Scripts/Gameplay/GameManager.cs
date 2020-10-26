@@ -70,8 +70,9 @@ public class GameManager : MonoBehaviour
         SetTimeScale(time);
     }
     
-    private void SetTimeScale(float time)
+    public void SetTimeScale(float time)
     {
         Time.timeScale = time;
     }
+    
 }

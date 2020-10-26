@@ -24,6 +24,6 @@ public class AudioPostProcessing : AssetPostprocessor
             settings.loadType = AudioClipLoadType.Streaming;
             Debug.Log($"file size is {fileSize} kb, loadtype settings: {settings.loadType}");
         }
-        audioImporter.SetOverrideSampleSettings("Windows", settings);
+        audioImporter.defaultSampleSettings = settings;
     }
 }

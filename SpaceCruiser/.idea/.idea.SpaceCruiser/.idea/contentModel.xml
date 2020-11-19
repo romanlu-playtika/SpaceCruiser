@@ -22,6 +22,7 @@
             <e p="ScoreManager.cs" t="Include" />
           </e>
           <e p="Extententions" t="Include">
+            <e p="AudioPostProcessing.cs" t="Include" />
             <e p="CustomEvents" t="Include">
               <e p="AvoidAsteroidEvent.cs" t="Include" />
               <e p="ChangeGameTimeEvent.cs" t="Include" />
@@ -65,7 +66,6 @@
           <e p="Music" t="Include">
             <e p="GameMusic.cs" t="Include" />
             <e p="GameSounds.cs" t="Include" />
-            <e p="SoundsController.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
             <e p="AbstractUIMenuBase.cs" t="Include" />
